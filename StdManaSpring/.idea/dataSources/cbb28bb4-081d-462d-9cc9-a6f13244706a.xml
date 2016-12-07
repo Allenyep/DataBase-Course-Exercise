@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="StdManaSys@123.207.83.185">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="StdManaSys">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <table id="4" parent="2" name="jxjh"/>
+    <table id="5" parent="2" name="kc"/>
+    <table id="6" parent="2" name="xs_bj"/>
+    <table id="7" parent="2" name="xs_xk_r">
+      <Comment>ѧ</Comment>
+    </table>
+    <table id="8" parent="2" name="xsjc">
+      <Comment>ѧ</Comment>
+    </table>
+    <table id="9" parent="2" name="xsjc_r"/>
+    <table id="10" parent="2" name="xsxx">
+      <Comment>ѧ</Comment>
+    </table>
+    <table id="11" parent="2" name="xy">
+      <Comment>ѧԺ</Comment>
+    </table>
+    <table id="12" parent="2" name="zg">
+      <Comment>ѧУְ</Comment>
+    </table>
+    <table id="13" parent="2" name="zy">
+      <Comment>רҵ</Comment>
+    </table>
+    <table id="14" parent="2" name="zy_kc_r"/>
+    <column id="15" parent="4" name="jxjh_id">
+      <Position>1</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="16" parent="4" name="xy_id">
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="17" parent="4" name="zy_id">
+      <Position>3</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="18" parent="4" name="jxjh_mc">
+      <Position>4</Position>
+      <DataType>varchar(60)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="19" parent="4" name="jxjh_date">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="20" parent="4" name="jxjh_ms">
+      <Position>6</Position>
+      <DataType>varchar(1000)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="21" parent="4" name="PRIMARY">
+      <ColNames>jxjh_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="22" parent="5" name="kc_id">
+      <Position>1</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="23" parent="5" name="kc_mc">
+      <Position>2</Position>
+      <DataType>varchar(60)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="5" name="kc_xf">
+      <Position>3</Position>
+      <DataType>decimal(6,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="5" name="kc_xs">
+      <Position>4</Position>
+      <DataType>decimal(4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="5" name="kc_ms">
+      <Position>5</Position>
+      <DataType>varchar(500)|0</DataType>
+    </column>
+    <key id="27" parent="5" name="PRIMARY">
+      <ColNames>kc_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="28" parent="6" name="xy_id">
+      <Position>1</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="6" name="zy_id">
+      <Position>2</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="6" name="bj_code">
+      <Position>3</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="6" name="bj_mc">
+      <Position>4</Position>
+      <DataType>varchar(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="6" name="bj_zt">
+      <Position>5</Position>
+      <DataType>varchar(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="6" name="bj_start">
+      <Position>6</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="6" name="bj_end">
+      <Position>7</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="35" parent="6" name="PRIMARY">
+      <ColNames>xy_id
+zy_id
+bj_code</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="36" parent="7" name="kc_id">
+      <Position>1</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="7" name="xs__xy_id">
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="7" name="xs__zy_id">
+      <Position>3</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="39" parent="7" name="bj_code">
+      <Position>4</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="40" parent="7" name="xs_xh">
+      <Position>5</Position>
+      <DataType>varchar(60)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="41" parent="7" name="cj">
+      <Position>6</Position>
+      <DataType>decimal(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="42" parent="7" name="bk">
+      <Position>7</Position>
+      <DataType>decimal(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="7" name="bkcj">
+      <Position>8</Position>
+      <DataType>decimal(3)|0</DataType>
+    </column>
+    <key id="44" parent="7" name="PRIMARY">
+      <ColNames>kc_id
+xs__xy_id
+xs__zy_id
+bj_code
+xs_xh</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="45" parent="8" name="xsjc_id">
+      <Position>1</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="8" name="xsjc_mc">
+      <Position>2</Position>
+      <DataType>varchar(70)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="8" name="xsjc_date">
+      <Position>3</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="8" name="xsjc_yy">
+      <Position>4</Position>
+      <DataType>varchar(600)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="49" parent="8" name="PRIMARY">
+      <ColNames>xsjc_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="50" parent="9" name="xs__xy_id">
+      <Position>1</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="9" name="xs__zy_id">
+      <Position>2</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="9" name="bj_code">
+      <Position>3</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="9" name="xs_xh">
+      <Position>4</Position>
+      <DataType>varchar(60)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="9" name="xsjc_id">
+      <Position>5</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="55" parent="9" name="FK_Relationship_8">
+      <ColNames>xsjc_id</ColNames>
+    </index>
+    <key id="56" parent="9" name="PRIMARY">
+      <ColNames>xs__xy_id
+xs__zy_id
+bj_code
+xs_xh
+xsjc_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="57" parent="10" name="xs__xy_id">
+      <Position>1</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="10" name="xs__zy_id">
+      <Position>2</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="10" name="bj_code">
+      <Position>3</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="10" name="xs_xh">
+      <Position>4</Position>
+      <DataType>varchar(60)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="10" name="xy_id">
+      <Position>5</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="62" parent="10" name="zy_id">
+      <Position>6</Position>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="63" parent="10" name="xs_xm">
+      <Position>7</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="10" name="xs_xb">
+      <Position>8</Position>
+      <DataType>char(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="10" name="xs_csrq">
+      <Position>9</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="10" name="xs_jl">
+      <Position>10</Position>
+      <DataType>varchar(400)|0</DataType>
+    </column>
+    <column id="67" parent="10" name="xs_pwd">
+      <Position>11</Position>
+      <DataType>varchar(60)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="10" name="xs_pwd_salt">
+      <Position>12</Position>
+      <DataType>varchar(60)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="69" parent="10" name="PRIMARY">
+      <ColNames>xs__xy_id
+xs__zy_id
+bj_code
+xs_xh</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="70" parent="11" name="xy_id">
+      <Position>1</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="11" name="xy_mc">
+      <Position>2</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="11" name="xy_ms">
+      <Position>3</Position>
+      <DataType>varchar(400)|0</DataType>
+    </column>
+    <key id="73" parent="11" name="PRIMARY">
+      <ColNames>xy_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="74" parent="12" name="xy_xy_id">
+      <Position>1</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="75" parent="12" name="zg_code">
+      <Position>2</Position>
+      <DataType>varchar(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="12" name="xy_id">
+      <Position>3</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="77" parent="12" name="zg_name">
+      <Position>4</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="78" parent="12" name="zg_xb">
+      <Position>5</Position>
+      <DataType>decimal(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="79" parent="12" name="zg_ms">
+      <Position>6</Position>
+      <DataType>varchar(300)|0</DataType>
+    </column>
+    <column id="80" parent="12" name="zg_csrq">
+      <Position>7</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="12" name="zg_xl">
+      <Position>8</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="82" parent="12" name="zg_zc">
+      <Position>9</Position>
+      <DataType>varchar(40)|0</DataType>
+    </column>
+    <column id="83" parent="12" name="zg_zzmm">
+      <Position>10</Position>
+      <DataType>varchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="12" name="zg_pwd">
+      <Position>11</Position>
+      <DataType>varchar(60)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="12" name="zg_pwd_salt">
+      <Position>12</Position>
+      <DataType>varchar(60)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="86" parent="12" name="FK_Relationship_12">
+      <ColNames>xy_id</ColNames>
+    </index>
+    <key id="87" parent="12" name="PRIMARY">
+      <ColNames>xy_xy_id
+zg_code</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="88" parent="13" name="xy_id">
+      <Position>1</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="89" parent="13" name="zy_id">
+      <Position>2</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="90" parent="13" name="zy_mc">
+      <Position>3</Position>
+      <DataType>varchar(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="91" parent="13" name="PRIMARY">
+      <ColNames>xy_id
+zy_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="92" parent="14" name="kc_id">
+      <Position>1</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="14" name="xy_id">
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="94" parent="14" name="zy_id">
+      <Position>3</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="95" parent="14" name="FK_Relationship_5">
+      <ColNames>xy_id
+zy_id</ColNames>
+    </index>
+    <key id="96" parent="14" name="PRIMARY">
+      <ColNames>kc_id
+xy_id
+zy_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

@@ -1,0 +1,7 @@
+INSERT INTO xsxx (xs__xy_id, xs__zy_id, bj_code, xs_xh,
+                  xy_id, zy_id, xs_xm, xs_xb, xs_csrq,
+                  xs_jl, xs_pwd, xs_pwd_salt)
+    VALUES (06,01,01,631406010122,06,01,'谭建','1',
+               19951012,'暂时无简历',
+               '6bdf118cc139c5d22117a14690a94d63002b8cc1a98fa326071ce179cf8c5fac',
+            '631406010122');

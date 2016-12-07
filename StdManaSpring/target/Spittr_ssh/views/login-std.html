@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>登录页面</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="alternate icon" type="image/png" href="../assets/i/favicon.png">
+  <link rel="stylesheet" href="../assets/css/amazeui.min.css"/>
+  <style>
+    .header {
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 200%;
+      color: #333;
+      margin-top: 30px;
+    }
+    .header p {
+      font-size: 14px;
+    }
+    .header img{
+      width: 160px;
+      height:160px;
+    }
+  </style>
+</head>
+<body>
+<div class="header">
+  <img src="../assets/i/favicon.png"><p style="color: #dd514c">仅供模拟演示</p>
+  <hr />
+</div>
+<div class="am-g">
+  <div class="am-u-lg-6 am-u-md-8 am-u-sm-centered">
+    <h3>登录</h3>
+    <hr>
+    <div class="am-btn-group">
+      <a href="#" id="type-std" class="am-btn am-btn-secondary am-btn-sm am-active"><i class="am-icon-sm"></i> 学生</a>
+    </div>
+    <br>
+    <br>
+
+    <form class="am-form">
+      <label for="account">账户:</label>
+      <input type="text" name="" id="account" value="">
+      <br>
+      <label for="password">密码:</label>
+      <input type="password" name="" id="password" value="">
+      <br>
+      <label for="remember-me">
+        <input id="remember-me" type="checkbox">
+        记住密码
+      </label>
+      <br />
+      <div class="am-cf">
+        <input type="button" id="Btn_login" name="" value="登 录"  class="am-btn am-btn-primary am-btn-sm am-fl">
+        <input type="submit" id="Btn_forget_pwd" name="" value="忘记密码 ^_^? " class="am-btn am-btn-default am-btn-sm am-fr">
+      </div>
+    </form>
+    <hr>
+    <p>© 2014 By 谭建</p>
+  </div>
+    <div class="am-modal am-modal-loading am-modal-no-btn" tabindex="-1" id="modal-loging">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd">努力验证中...</div>
+            <div class="am-modal-bd">
+                <span class="am-icon-spinner am-icon-spin"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--[if lt IE 9]>
+<script src="../assets/js/jquery-3.1.1.min.js"></script>
+<script src="../assets/js/modernizr.js"></script>
+<script src="../assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="../assets/js/jquery-3.1.1.min.js"></script>
+<!--<![endif]-->
+<script src="../assets/js/amazeui.min.js"></script>
+<script src="../assets/js/sha256.js"></script>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>
