@@ -38,7 +38,7 @@ public class zgRepository extends SQLHelper<zg> implements Repository<zg> {
     public List<zg> findAll() {
         String sql="SELECT xy_xy_id, zg_code, xy_id, zg_name,\n" +
                 "                zg_xb, zg_ms, zg_csrq, zg_xl,\n" +
-                "                zg_zc, zg_zzmm FROM zg";
+                "                zg_zc, zg_zzmm FROM zg;";
         List<zg> lists=query(sql);
         return lists;
     }

@@ -1,7 +1,9 @@
 package Sys.web;
 
+import Sys.data.db.jxjhRepository;
 import Sys.data.db.xsxxRepository;
 import Sys.data.db.zgRepository;
+import Sys.data.domain.jxjh;
 import Sys.data.domain.xsxx;
 import Sys.data.domain.zg;
 import org.springframework.stereotype.Controller;
@@ -47,6 +49,17 @@ public class AdminController {
         StringBuffer stringBuffer=new StringBuffer();
         List<zg> lists=new zgRepository().findAll();
         for(zg item:lists){
+            stringBuffer.append(item.toString()+",");
+        }
+        return stringBuffer.toString();
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/getTeachPlanList",method = GET,produces = {"application/json;charset=GBK"})
+    public String getTeachPlanList(){
+        List<jxjh> lists=new jxjhRepository().findAll();
+        StringBuffer stringBuffer=new StringBuffer();
+        for (jxjh item:lists){
             stringBuffer.append(item.toString()+",");
         }
         return stringBuffer.toString();

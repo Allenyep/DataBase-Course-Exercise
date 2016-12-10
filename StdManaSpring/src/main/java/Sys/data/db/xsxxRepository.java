@@ -63,9 +63,9 @@ public class xsxxRepository implements Repository<xsxx>{
         try {
             pstmt = connection.prepareStatement(sql);
             ResultSet rs = pstmt.executeQuery();
-            int col = rs.getMetaData().getColumnCount();
+           // int col = rs.getMetaData().getColumnCount();
             while (rs.next()) {
-                int i=0;
+               // int i=0;
               /*  for (int i = 1; i <col; i++) {
                  //   stringBuffer.append(rs.getString(i)+",");
                 }*/
@@ -119,6 +119,7 @@ public class xsxxRepository implements Repository<xsxx>{
             ResultSet resultSet = pstmt.executeQuery();
             if(resultSet.next()){
                 state=true;
+                //TODO:将当前用户写入Session
             }
         } catch (SQLException | NoSuchAlgorithmException e) {
             e.printStackTrace();
