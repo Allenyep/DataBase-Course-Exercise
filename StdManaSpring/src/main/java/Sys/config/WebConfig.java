@@ -36,9 +36,9 @@ public class WebConfig extends WebMvcConfigurerAdapter {
     public ComboPooledDataSource dataSource() throws PropertyVetoException {
         ComboPooledDataSource ds=new ComboPooledDataSource();
         ds.setDriverClass("com.mysql.jdbc.Driver");
-        ds.setJdbcUrl("jdbc:mysql://123.207.83.185:3306/StdManaSys");
-        ds.setUser("tanjian");
-        ds.setPassword("1IrPhbaiVcEk");
+        ds.setJdbcUrl("jdbc:mysql://");
+        ds.setUser("");
+        ds.setPassword("");
         ds.setInitialPoolSize(5);
         ds.setMaxPoolSize(10);
         ds.setMinPoolSize(3);
