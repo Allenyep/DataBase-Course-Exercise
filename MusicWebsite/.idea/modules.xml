@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MusicWebsite.iml" filepath="$PROJECT_DIR$/MusicWebsite.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Spittr/Spittr.iml" filepath="$PROJECT_DIR$/Spittr/Spittr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MusicWebsite.iml" filepath="$PROJECT_DIR$/.idea/MusicWebsite.iml" />
     </modules>
   </component>
 </project>
