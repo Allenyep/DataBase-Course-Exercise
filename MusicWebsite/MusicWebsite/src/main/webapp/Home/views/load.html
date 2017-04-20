@@ -1,33 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <style>
-        .banner {/*  修改输出屏大小  */ width: 550px; height:300px; overflow: hidden; position: relative; margin-left: auto; margin-right: auto; }
-        .banner .img { width: 99999px; position: absolute; left: 0px; top: 0; }
-        .banner .img li { float: left; }
-        /*/ 修改图片大小 /*/
-        .banner .img img { width: 550px; }
-        /*/ 小圆圈 /*/
-        .banner .num { position: absolute; width: 100%; bottom: 10px; left: 0; text-align: center; font-size: 0px; }
-        .banner .num li { width: 10px; height: 10px; background: #888; border-radius: 50%; display: inline-block; margin: 0 3px; cursor: pointer; }
-        .banner .num li.on { background: #F60; }
-        /*/ 按钮 /*/
-        .banner .btn { width: 30px; height: 50px; background: rgba(0,0,0,0.5); position: absolute; top: 50%; margin-top: -25px; cursor: pointer; text-align: center; line-height: 50px; color: #fff; font-size: 40px; font-family: "宋体"; display: none; }
-        .banner:hover .btn { display: block; }
-        .banner .btn_l { left: 0; }
-        .banner .btn_r { right: 0; }
-    </style>
-</head>
-<script type="text/javascript" src="/Home/assets/js/gdlb.js"></script>
+<head></head>
 <body>
 <main>
     <!--Mask-->
     <!--  <div class="view hm-black-strong">-->
     <div class="container container_body">
         <div class="row">
-            <div class="col-sm-7 wow fadeInLeft">
-          <div class="embed-responsive embed-responsive-16by9 wow fadeIn">
-                    &lt;!&ndash;如果需要自动播放视频，将下面preload改为autoplay即可&ndash;&gt;
+            <div class="col-sm-7">
+                <div class="embed-responsive embed-responsive-16by9 wow fadeIn">
+                    <!--如果需要自动播放视频，将下面preload改为autoplay即可-->
                     <video class="embed-responsive-item" controls="" preload="" id="mvplayer" name="media"
                            poster="">
                         <source src="http://123.207.83.185/imgDataBases/Never_Back_Down.mp4" type="video/mp4">
@@ -35,31 +17,13 @@
                 </div>
                 <div>
                     Two Steps From Hell，又名地狱咫尺， 是一家专业的音乐公司，制作电影广告音乐以及电影预告音乐,作品以电影预告片配乐见长，风格就是两个字：气势。
-                    &lt;!&ndash;Elegant&ndash;&gt;
+                    <!--Elegant-->
                     <button type="button" class="btn btn-elegant detailsBtn">了解更多</button>
                 </div>
-
-                <!--<div id="ban2">
-                    <div class="banner">
-                        <ul class="img">
-                            <li><a href="#"><img src="/Home/assets/img/1.png"></a></li>
-                            <li><a href="#"><img src="/Home/assets/img/2.png"></a></li>
-                            <li><a href="#"><img src="/Home/assets/img/3.png"></a></li>
-                            <li><a href="#"><img src="/Home/assets/img/4.png"></a></li>
-                        </ul>
-
-                        <ul class="num">
-                        </ul>
-
-                        <div class="btn btn_l">&lt;</div>
-                        <div class="btn btn_r">&gt;</div>
-
-                    </div>
-                </div>-->
             </div>
 
             <div class="col-sm-5">
-                <ul class="list-group special-color-dark wow fadeInRight" id="top-list">
+                <ul class="list-group special-color-dark wow fadeInDown" id="top-list">
                     <!-- <li class="list-group-item special-color-dark view overlay hm-white-slight">已经由js动态生成数据并绑定</li>-->
                 </ul>
             </div>
